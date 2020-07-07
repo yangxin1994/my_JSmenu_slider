@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<link rel="stylesheet" href="styles.css">
+  <title>张大山</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="img/logo.jpg" width="100px" height="100px" alt="logo" >
+    </div>
+    <ul>
+      <li> <a href="#">主页</a></li>
+      <li> <a href="#">关于我们</a></li>
+      <li> <a href="#">介绍</a></li>
+      <li> <a href="#">联系我们</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <h1>欢迎来到我的个人网站</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Vel, accusantium!</p>
+      <button class="cta-btn" id="open">登陆</button>
+  </header>
+
+  <div class="container">
+    <h2>我叫张大山</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Omnis dolorum incidunt voluptatibus itaque quasi ipsam corporis, ipsa accusantium eligendi 
+      illum velit ad,
+      esse ratione vitae in aut, culpa at magnam!</p>
+      <h2>目前正在学习前端</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi nobis maiores molestiae facilis. Id quia dolores mollitia quam voluptas vitae. Maiores fugiat odit quas 
+       debitis dolore sequi 
+       obcaecati itaque inventore.</p>
+       <h2>请多多指教</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Sequi nobis maiores molestiae facilis. Id quia dolores mollitia quam voluptas vitae. Maiores fugiat odit quas 
+        debitis dolore sequi 
+        obcaecati itaque inventore.</p>
+  </div>
+
+
+  <!-- modal -->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="model-header">
+        <h3>登陆</h3>
+      </div>
+      <div class="model-contant">
+       <form class="model-form">
+         <div>
+           <label for="name">姓名</label>
+           <input type="text" id="name" placeholder="姓名"
+           class="form-input">
+         </div>
+         <div>
+           <label for="name">邮箱</label>
+           <input type="text" id="email" placeholder="邮箱"
+           class="form-input">
+         </div>
+         <div>
+           <label for="name">密码</label>
+           <input type="password" id="password" placeholder="密码"
+           class="form-input">
+         </div>
+         <div>
+           <label for="name">确认密码</label>
+           <input type="password" id="password1" placeholder="确认密码"
+           class="form-input">
+         </div>
+         <input type="submit" value="提交" class="submit-form">
+        </form>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
